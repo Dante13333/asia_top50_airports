@@ -1,0 +1,2311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_24d31283fde76fbaa21fbc9e1fad40ea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_24d31283fde76fbaa21fbc9e1fad40ea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_24d31283fde76fbaa21fbc9e1fad40ea = L.map(
+                "map_24d31283fde76fbaa21fbc9e1fad40ea",
+                {
+                    center: [20.0, 100.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_753882b78b47c14140c026b0e28f8d28 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_753882b78b47c14140c026b0e28f8d28.addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var marker_a88c39eeb95ed593c4fab5cb89f45dec = L.marker(
+                [25.2532, 55.3657],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_8d25561837d575d26c79ee9fee8a5a00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66d383fe9ec4fe9c9a1606ebfafa0869 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_450936e6146a37cb3a539ed0fbebd377 = $(`<div id="html_450936e6146a37cb3a539ed0fbebd377" style="width: 100.0%; height: 100.0%;">     <b>DXB</b><br>     Passengers: 92.3M<br>     Cargo: 2.2M tons     </div>`)[0];
+                popup_66d383fe9ec4fe9c9a1606ebfafa0869.setContent(html_450936e6146a37cb3a539ed0fbebd377);
+            
+        
+
+        marker_a88c39eeb95ed593c4fab5cb89f45dec.bindPopup(popup_66d383fe9ec4fe9c9a1606ebfafa0869)
+        ;
+
+        
+    
+    
+                marker_a88c39eeb95ed593c4fab5cb89f45dec.setIcon(icon_8d25561837d575d26c79ee9fee8a5a00);
+            
+    
+            var marker_f677512962c0ada296f48b7f5bae3eb8 = L.marker(
+                [35.5494, 139.7798],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_0bba40d24b9288540660861c8d3ec3dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91cb91a3d27c43f0d011c71e73fcc185 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_63e9d2a78bd74e2fba2888cd1ec8e1aa = $(`<div id="html_63e9d2a78bd74e2fba2888cd1ec8e1aa" style="width: 100.0%; height: 100.0%;">     <b>HND</b><br>     Passengers: 85.0M<br>     Cargo: 1.3M tons     </div>`)[0];
+                popup_91cb91a3d27c43f0d011c71e73fcc185.setContent(html_63e9d2a78bd74e2fba2888cd1ec8e1aa);
+            
+        
+
+        marker_f677512962c0ada296f48b7f5bae3eb8.bindPopup(popup_91cb91a3d27c43f0d011c71e73fcc185)
+        ;
+
+        
+    
+    
+                marker_f677512962c0ada296f48b7f5bae3eb8.setIcon(icon_0bba40d24b9288540660861c8d3ec3dc);
+            
+    
+            var marker_f3e12ec29a57b6f8c3c16b82cd43fbcd = L.marker(
+                [28.5562, 77.1],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_8598a24ceadf7fb603571da6a7826aa9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9059e920c9fcdc9085662558b7a8ff5c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_895a30dd75d93d8de0383acf436ad67d = $(`<div id="html_895a30dd75d93d8de0383acf436ad67d" style="width: 100.0%; height: 100.0%;">     <b>DEL</b><br>     Passengers: 77.8M<br>     Cargo: 1.0M tons     </div>`)[0];
+                popup_9059e920c9fcdc9085662558b7a8ff5c.setContent(html_895a30dd75d93d8de0383acf436ad67d);
+            
+        
+
+        marker_f3e12ec29a57b6f8c3c16b82cd43fbcd.bindPopup(popup_9059e920c9fcdc9085662558b7a8ff5c)
+        ;
+
+        
+    
+    
+                marker_f3e12ec29a57b6f8c3c16b82cd43fbcd.setIcon(icon_8598a24ceadf7fb603571da6a7826aa9);
+            
+    
+            var marker_865934effdd0de9da5332a954ff3c610 = L.marker(
+                [31.1434, 121.8052],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_912ae47c16cbd909db37aa6c0ed4674f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c3b3046bdc632c91d3cfc30187ca24c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7aac7c87a3cdacb2850e4264f940943f = $(`<div id="html_7aac7c87a3cdacb2850e4264f940943f" style="width: 100.0%; height: 100.0%;">     <b>PVG</b><br>     Passengers: 76.8M<br>     Cargo: 3.8M tons     </div>`)[0];
+                popup_4c3b3046bdc632c91d3cfc30187ca24c.setContent(html_7aac7c87a3cdacb2850e4264f940943f);
+            
+        
+
+        marker_865934effdd0de9da5332a954ff3c610.bindPopup(popup_4c3b3046bdc632c91d3cfc30187ca24c)
+        ;
+
+        
+    
+    
+                marker_865934effdd0de9da5332a954ff3c610.setIcon(icon_912ae47c16cbd909db37aa6c0ed4674f);
+            
+    
+            var marker_6ea298de98342f4c2774f72c80538abd = L.marker(
+                [23.3924, 113.2988],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_0bf0184612dedf6134d8ff2a729fceca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e0954eb41ff9dafad9e39c8d852d65e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8032dc9da4da09158c66a6dedc87b422 = $(`<div id="html_8032dc9da4da09158c66a6dedc87b422" style="width: 100.0%; height: 100.0%;">     <b>CAN</b><br>     Passengers: 76.3M<br>     Cargo: 2.4M tons     </div>`)[0];
+                popup_8e0954eb41ff9dafad9e39c8d852d65e.setContent(html_8032dc9da4da09158c66a6dedc87b422);
+            
+        
+
+        marker_6ea298de98342f4c2774f72c80538abd.bindPopup(popup_8e0954eb41ff9dafad9e39c8d852d65e)
+        ;
+
+        
+    
+    
+                marker_6ea298de98342f4c2774f72c80538abd.setIcon(icon_0bf0184612dedf6134d8ff2a729fceca);
+            
+    
+            var marker_3d8b4e98a6e7b1b83d7a3f26938f6522 = L.marker(
+                [37.4602, 126.4407],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_306d4724648577bcebc1e67825c38ccb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a81f5e67955238807da5b633732e5b02 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_db7b73e297931f5335cfbc8f4c2f4c4d = $(`<div id="html_db7b73e297931f5335cfbc8f4c2f4c4d" style="width: 100.0%; height: 100.0%;">     <b>ICN</b><br>     Passengers: 71.2M<br>     Cargo: 2.9M tons     </div>`)[0];
+                popup_a81f5e67955238807da5b633732e5b02.setContent(html_db7b73e297931f5335cfbc8f4c2f4c4d);
+            
+        
+
+        marker_3d8b4e98a6e7b1b83d7a3f26938f6522.bindPopup(popup_a81f5e67955238807da5b633732e5b02)
+        ;
+
+        
+    
+    
+                marker_3d8b4e98a6e7b1b83d7a3f26938f6522.setIcon(icon_306d4724648577bcebc1e67825c38ccb);
+            
+    
+            var marker_4f76f3bcc6397cc56bbbcfee27b51e4c = L.marker(
+                [1.3644, 103.9915],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_a843e9f9c4674889600661897321d8a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1aae678f69f8fbc96fc7a53caf870810 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4e1d8b3901b73150ed4f9233797c69db = $(`<div id="html_4e1d8b3901b73150ed4f9233797c69db" style="width: 100.0%; height: 100.0%;">     <b>SIN</b><br>     Passengers: 67.7M<br>     Cargo: 1.8M tons     </div>`)[0];
+                popup_1aae678f69f8fbc96fc7a53caf870810.setContent(html_4e1d8b3901b73150ed4f9233797c69db);
+            
+        
+
+        marker_4f76f3bcc6397cc56bbbcfee27b51e4c.bindPopup(popup_1aae678f69f8fbc96fc7a53caf870810)
+        ;
+
+        
+    
+    
+                marker_4f76f3bcc6397cc56bbbcfee27b51e4c.setIcon(icon_a843e9f9c4674889600661897321d8a4);
+            
+    
+            var marker_46a266810746cdcbb202bab2a96c7445 = L.marker(
+                [40.0799, 116.6031],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_86a9123d3ca769c33bf6ad0b697f4a96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2da07060dc234c252b739c0ece405362 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_073be5956791d7a39f800e1b0d3f2703 = $(`<div id="html_073be5956791d7a39f800e1b0d3f2703" style="width: 100.0%; height: 100.0%;">     <b>PEK</b><br>     Passengers: 67.4M<br>     Cargo: 1.4M tons     </div>`)[0];
+                popup_2da07060dc234c252b739c0ece405362.setContent(html_073be5956791d7a39f800e1b0d3f2703);
+            
+        
+
+        marker_46a266810746cdcbb202bab2a96c7445.bindPopup(popup_2da07060dc234c252b739c0ece405362)
+        ;
+
+        
+    
+    
+                marker_46a266810746cdcbb202bab2a96c7445.setIcon(icon_86a9123d3ca769c33bf6ad0b697f4a96);
+            
+    
+            var marker_c8770509ccf40ae2badc6cc2ec7ae9fa = L.marker(
+                [13.69, 100.7501],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_a70a279808b5cbf4e08b03f78a23a14d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c72ced94533b9e4733cc80f4623aa125 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8f61375e1869e534b5bad671feddd3fb = $(`<div id="html_8f61375e1869e534b5bad671feddd3fb" style="width: 100.0%; height: 100.0%;">     <b>BKK</b><br>     Passengers: 62.2M<br>     Cargo: 1.4M tons     </div>`)[0];
+                popup_c72ced94533b9e4733cc80f4623aa125.setContent(html_8f61375e1869e534b5bad671feddd3fb);
+            
+        
+
+        marker_c8770509ccf40ae2badc6cc2ec7ae9fa.bindPopup(popup_c72ced94533b9e4733cc80f4623aa125)
+        ;
+
+        
+    
+    
+                marker_c8770509ccf40ae2badc6cc2ec7ae9fa.setIcon(icon_a70a279808b5cbf4e08b03f78a23a14d);
+            
+    
+            var marker_128fd6c40686ac939acedeccf9202bb9 = L.marker(
+                [22.6393, 113.8108],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_56fbf40757d260ede1c990e1889a3047 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6fb67a74cde73115a33b75425eff728e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4839ef58bad0f974ad49d3c7df41934f = $(`<div id="html_4839ef58bad0f974ad49d3c7df41934f" style="width: 100.0%; height: 100.0%;">     <b>SZX</b><br>     Passengers: 61.5M<br>     Cargo: 1.9M tons     </div>`)[0];
+                popup_6fb67a74cde73115a33b75425eff728e.setContent(html_4839ef58bad0f974ad49d3c7df41934f);
+            
+        
+
+        marker_128fd6c40686ac939acedeccf9202bb9.bindPopup(popup_6fb67a74cde73115a33b75425eff728e)
+        ;
+
+        
+    
+    
+                marker_128fd6c40686ac939acedeccf9202bb9.setIcon(icon_56fbf40757d260ede1c990e1889a3047);
+            
+    
+            var marker_64fd9b2e34cdfded372449223b06cc99 = L.marker(
+                [2.7456, 101.709],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_f353cd4b2dd24f24f13fd7935a82746a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aca1d9898e593ce11d1d108539c4934d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_293047f1bee454f56a058b982f33274e = $(`<div id="html_293047f1bee454f56a058b982f33274e" style="width: 100.0%; height: 100.0%;">     <b>KUL</b><br>     Passengers: 57.0M<br>     Cargo: 794.9K tons     </div>`)[0];
+                popup_aca1d9898e593ce11d1d108539c4934d.setContent(html_293047f1bee454f56a058b982f33274e);
+            
+        
+
+        marker_64fd9b2e34cdfded372449223b06cc99.bindPopup(popup_aca1d9898e593ce11d1d108539c4934d)
+        ;
+
+        
+    
+    
+                marker_64fd9b2e34cdfded372449223b06cc99.setIcon(icon_f353cd4b2dd24f24f13fd7935a82746a);
+            
+    
+            var marker_7d8e75087e20267ac13acbece6b9cf5f = L.marker(
+                [30.3133, 103.9469],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_e5c48cd819fe74637fe05da80d487a73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cfcf8ed4cfa489baa560d55af5f960b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_86abecd5b6c27a19331b2e691b37b9c6 = $(`<div id="html_86abecd5b6c27a19331b2e691b37b9c6" style="width: 100.0%; height: 100.0%;">     <b>TFU</b><br>     Passengers: 54.9M<br>     Cargo: 384.9K tons     </div>`)[0];
+                popup_0cfcf8ed4cfa489baa560d55af5f960b.setContent(html_86abecd5b6c27a19331b2e691b37b9c6);
+            
+        
+
+        marker_7d8e75087e20267ac13acbece6b9cf5f.bindPopup(popup_0cfcf8ed4cfa489baa560d55af5f960b)
+        ;
+
+        
+    
+    
+                marker_7d8e75087e20267ac13acbece6b9cf5f.setIcon(icon_e5c48cd819fe74637fe05da80d487a73);
+            
+    
+            var marker_25db41e39f7572799b06b1b64bd90c2e = L.marker(
+                [-6.1256, 106.6559],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_14100cf10264b20f87bd7fbdb25845a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_802ff377f4d72a7638b79ca492377de2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_64146f1070a90af613b650b117cab27f = $(`<div id="html_64146f1070a90af613b650b117cab27f" style="width: 100.0%; height: 100.0%;">     <b>CGK</b><br>     Passengers: 54.8M<br>     Cargo: nan tons     </div>`)[0];
+                popup_802ff377f4d72a7638b79ca492377de2.setContent(html_64146f1070a90af613b650b117cab27f);
+            
+        
+
+        marker_25db41e39f7572799b06b1b64bd90c2e.bindPopup(popup_802ff377f4d72a7638b79ca492377de2)
+        ;
+
+        
+    
+    
+                marker_25db41e39f7572799b06b1b64bd90c2e.setIcon(icon_14100cf10264b20f87bd7fbdb25845a3);
+            
+    
+            var marker_206af61b3b12ea2527ac1a308445c737 = L.marker(
+                [19.0896, 72.8656],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_345ae558a20f130b44251aec31260368 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a6c6f409aa10f13b891784dd77371db = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_75a44693443756474b7bac38cd07ced4 = $(`<div id="html_75a44693443756474b7bac38cd07ced4" style="width: 100.0%; height: 100.0%;">     <b>BOM</b><br>     Passengers: 54.8M<br>     Cargo: nan tons     </div>`)[0];
+                popup_8a6c6f409aa10f13b891784dd77371db.setContent(html_75a44693443756474b7bac38cd07ced4);
+            
+        
+
+        marker_206af61b3b12ea2527ac1a308445c737.bindPopup(popup_8a6c6f409aa10f13b891784dd77371db)
+        ;
+
+        
+    
+    
+                marker_206af61b3b12ea2527ac1a308445c737.setIcon(icon_345ae558a20f130b44251aec31260368);
+            
+    
+            var marker_7e6926ad5fe6a0cbb97b7aabaf950090 = L.marker(
+                [22.308, 113.9185],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_0c9141065dad556612ab59514d51d003 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3043b82f3556126122760f996f338ccf = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1581bededd5671a67375839d35f8dcad = $(`<div id="html_1581bededd5671a67375839d35f8dcad" style="width: 100.0%; height: 100.0%;">     <b>HKG</b><br>     Passengers: 53.1M<br>     Cargo: 4.9M tons     </div>`)[0];
+                popup_3043b82f3556126122760f996f338ccf.setContent(html_1581bededd5671a67375839d35f8dcad);
+            
+        
+
+        marker_7e6926ad5fe6a0cbb97b7aabaf950090.bindPopup(popup_3043b82f3556126122760f996f338ccf)
+        ;
+
+        
+    
+    
+                marker_7e6926ad5fe6a0cbb97b7aabaf950090.setIcon(icon_0c9141065dad556612ab59514d51d003);
+            
+    
+            var marker_d75cd52ac8c51002f3d916791c42ea94 = L.marker(
+                [25.2731, 51.6081],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_e09212eb033c2b26fd46e53d8f129266 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e96183089bdf948c174d5478832bfd8a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f2d65381087611316ee191a5ece3ba93 = $(`<div id="html_f2d65381087611316ee191a5ece3ba93" style="width: 100.0%; height: 100.0%;">     <b>DOH</b><br>     Passengers: 52.7M<br>     Cargo: 2.6M tons     </div>`)[0];
+                popup_e96183089bdf948c174d5478832bfd8a.setContent(html_f2d65381087611316ee191a5ece3ba93);
+            
+        
+
+        marker_d75cd52ac8c51002f3d916791c42ea94.bindPopup(popup_e96183089bdf948c174d5478832bfd8a)
+        ;
+
+        
+    
+    
+                marker_d75cd52ac8c51002f3d916791c42ea94.setIcon(icon_e09212eb033c2b26fd46e53d8f129266);
+            
+    
+            var marker_f132484d786e6acf83410f7b81a27ff8 = L.marker(
+                [14.5086, 121.0198],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_141115ab1f1310bedf52282baba10f7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a30ce01c57263238168abac10fe4bae7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1d87372de13e06597363ad64959f08af = $(`<div id="html_1d87372de13e06597363ad64959f08af" style="width: 100.0%; height: 100.0%;">     <b>MNL</b><br>     Passengers: 50.1M<br>     Cargo: 616.5K tons     </div>`)[0];
+                popup_a30ce01c57263238168abac10fe4bae7.setContent(html_1d87372de13e06597363ad64959f08af);
+            
+        
+
+        marker_f132484d786e6acf83410f7b81a27ff8.bindPopup(popup_a30ce01c57263238168abac10fe4bae7)
+        ;
+
+        
+    
+    
+                marker_f132484d786e6acf83410f7b81a27ff8.setIcon(icon_141115ab1f1310bedf52282baba10f7d);
+            
+    
+            var marker_7fdfa84e7f96e623db7179f3328dcea5 = L.marker(
+                [39.5099, 116.4108],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_16c17ed9b97641108298c69d01c96b27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_69fb5381eb0d721ccd74605f57239a1e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2353e3826957edecafdaed031e5eca61 = $(`<div id="html_2353e3826957edecafdaed031e5eca61" style="width: 100.0%; height: 100.0%;">     <b>PKX</b><br>     Passengers: 49.4M<br>     Cargo: 326.2K tons     </div>`)[0];
+                popup_69fb5381eb0d721ccd74605f57239a1e.setContent(html_2353e3826957edecafdaed031e5eca61);
+            
+        
+
+        marker_7fdfa84e7f96e623db7179f3328dcea5.bindPopup(popup_69fb5381eb0d721ccd74605f57239a1e)
+        ;
+
+        
+    
+    
+                marker_7fdfa84e7f96e623db7179f3328dcea5.setIcon(icon_16c17ed9b97641108298c69d01c96b27);
+            
+    
+            var marker_66eaa11600bef9f2864f4fd2a745b926 = L.marker(
+                [21.6796, 39.1565],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_f8b9634288a6eb76f52b95bb71c15cc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_627c38a547c8a829449f05b9cc2d1b27 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9017b5eff6155ef937ad6528e0e1522a = $(`<div id="html_9017b5eff6155ef937ad6528e0e1522a" style="width: 100.0%; height: 100.0%;">     <b>JED</b><br>     Passengers: 49.1M<br>     Cargo: 461.0K tons     </div>`)[0];
+                popup_627c38a547c8a829449f05b9cc2d1b27.setContent(html_9017b5eff6155ef937ad6528e0e1522a);
+            
+        
+
+        marker_66eaa11600bef9f2864f4fd2a745b926.bindPopup(popup_627c38a547c8a829449f05b9cc2d1b27)
+        ;
+
+        
+    
+    
+                marker_66eaa11600bef9f2864f4fd2a745b926.setIcon(icon_f8b9634288a6eb76f52b95bb71c15cc7);
+            
+    
+            var marker_f5ac1b019078e6da139b41e7fe30e6f2 = L.marker(
+                [29.7192, 106.6417],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_eeadd047864316671a1fb12b7cd4a0ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8847673ab91b02f23dcbff175cf85739 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3351336c5d25572b50f8f076ea041845 = $(`<div id="html_3351336c5d25572b50f8f076ea041845" style="width: 100.0%; height: 100.0%;">     <b>CKG</b><br>     Passengers: 48.7M<br>     Cargo: 469.5K tons     </div>`)[0];
+                popup_8847673ab91b02f23dcbff175cf85739.setContent(html_3351336c5d25572b50f8f076ea041845);
+            
+        
+
+        marker_f5ac1b019078e6da139b41e7fe30e6f2.bindPopup(popup_8847673ab91b02f23dcbff175cf85739)
+        ;
+
+        
+    
+    
+                marker_f5ac1b019078e6da139b41e7fe30e6f2.setIcon(icon_eeadd047864316671a1fb12b7cd4a0ca);
+            
+    
+            var marker_660117fc98ab5d62d2d07ed87ebc9eb4 = L.marker(
+                [30.2295, 120.4345],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_211abc0871c4b668ad5966c103f19464 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99d67a6f7deeb3bb335cf9c147ff3e6f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_47badcee57962197b27f9d5ff7670a10 = $(`<div id="html_47badcee57962197b27f9d5ff7670a10" style="width: 100.0%; height: 100.0%;">     <b>HGH</b><br>     Passengers: 48.0M<br>     Cargo: 809.7K tons     </div>`)[0];
+                popup_99d67a6f7deeb3bb335cf9c147ff3e6f.setContent(html_47badcee57962197b27f9d5ff7670a10);
+            
+        
+
+        marker_660117fc98ab5d62d2d07ed87ebc9eb4.bindPopup(popup_99d67a6f7deeb3bb335cf9c147ff3e6f)
+        ;
+
+        
+    
+    
+                marker_660117fc98ab5d62d2d07ed87ebc9eb4.setIcon(icon_211abc0871c4b668ad5966c103f19464);
+            
+    
+            var marker_511713ced7bd962c42414056a71dd5c1 = L.marker(
+                [31.1979, 121.3363],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_334d1615c5da65b5ccb8f0456653309d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3bb35441b83ef02933f965ef4445d996 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_94fed178006cfc6c343340afa07f8547 = $(`<div id="html_94fed178006cfc6c343340afa07f8547" style="width: 100.0%; height: 100.0%;">     <b>SHA</b><br>     Passengers: 48.0M<br>     Cargo: 427.7K tons     </div>`)[0];
+                popup_3bb35441b83ef02933f965ef4445d996.setContent(html_94fed178006cfc6c343340afa07f8547);
+            
+        
+
+        marker_511713ced7bd962c42414056a71dd5c1.bindPopup(popup_3bb35441b83ef02933f965ef4445d996)
+        ;
+
+        
+    
+    
+                marker_511713ced7bd962c42414056a71dd5c1.setIcon(icon_334d1615c5da65b5ccb8f0456653309d);
+            
+    
+            var marker_5aa6afee8a184f12998051ec3f5ff14e = L.marker(
+                [25.1019, 102.9292],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_a9a8f485a98be2e9b78c1bd45dfa8f51 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2bec21ac0a31f7a94cca2e2cfadd0fce = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_19c79ed8d561dbbd37bf5d6fbf36e880 = $(`<div id="html_19c79ed8d561dbbd37bf5d6fbf36e880" style="width: 100.0%; height: 100.0%;">     <b>KMG</b><br>     Passengers: 47.1M<br>     Cargo: 385.6K tons     </div>`)[0];
+                popup_2bec21ac0a31f7a94cca2e2cfadd0fce.setContent(html_19c79ed8d561dbbd37bf5d6fbf36e880);
+            
+        
+
+        marker_5aa6afee8a184f12998051ec3f5ff14e.bindPopup(popup_2bec21ac0a31f7a94cca2e2cfadd0fce)
+        ;
+
+        
+    
+    
+                marker_5aa6afee8a184f12998051ec3f5ff14e.setIcon(icon_a9a8f485a98be2e9b78c1bd45dfa8f51);
+            
+    
+            var marker_a1688343a263f47fa430371ad9fc5ef0 = L.marker(
+                [34.4471, 108.7516],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_373919106715b1cff97c5e40a7fd356f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be89db185fb76944f833471fe67e25f4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_20db595317a23d20028e55c5a38069ee = $(`<div id="html_20db595317a23d20028e55c5a38069ee" style="width: 100.0%; height: 100.0%;">     <b>XIY</b><br>     Passengers: 47.0M<br>     Cargo: 290.5K tons     </div>`)[0];
+                popup_be89db185fb76944f833471fe67e25f4.setContent(html_20db595317a23d20028e55c5a38069ee);
+            
+        
+
+        marker_a1688343a263f47fa430371ad9fc5ef0.bindPopup(popup_be89db185fb76944f833471fe67e25f4)
+        ;
+
+        
+    
+    
+                marker_a1688343a263f47fa430371ad9fc5ef0.setIcon(icon_373919106715b1cff97c5e40a7fd356f);
+            
+    
+            var marker_badbf6175807c7003bba6814fee15f71 = L.marker(
+                [25.0777, 121.2333],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_16b010a73c75603a64e7c57ec3cdbd44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6903b1c68fa7f239310d0b6ab32cde7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5d8dda69fc54c4c04a89d3bf4a7590a4 = $(`<div id="html_5d8dda69fc54c4c04a89d3bf4a7590a4" style="width: 100.0%; height: 100.0%;">     <b>TPE</b><br>     Passengers: 44.9M<br>     Cargo: 2.3M tons     </div>`)[0];
+                popup_f6903b1c68fa7f239310d0b6ab32cde7.setContent(html_5d8dda69fc54c4c04a89d3bf4a7590a4);
+            
+        
+
+        marker_badbf6175807c7003bba6814fee15f71.bindPopup(popup_f6903b1c68fa7f239310d0b6ab32cde7)
+        ;
+
+        
+    
+    
+                marker_badbf6175807c7003bba6814fee15f71.setIcon(icon_16b010a73c75603a64e7c57ec3cdbd44);
+            
+    
+            var marker_97bc00a5faa46d19742f095bca0d494d = L.marker(
+                [13.1986, 77.7066],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_91f46c7da7ca5191142c7f612332ae2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae51748ee0d5ee2797b040596b7a1de0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_41c773faeb6ee20b707f636bb36dc5f5 = $(`<div id="html_41c773faeb6ee20b707f636bb36dc5f5" style="width: 100.0%; height: 100.0%;">     <b>BLR</b><br>     Passengers: 41.9M<br>     Cargo: 496.2K tons     </div>`)[0];
+                popup_ae51748ee0d5ee2797b040596b7a1de0.setContent(html_41c773faeb6ee20b707f636bb36dc5f5);
+            
+        
+
+        marker_97bc00a5faa46d19742f095bca0d494d.bindPopup(popup_ae51748ee0d5ee2797b040596b7a1de0)
+        ;
+
+        
+    
+    
+                marker_97bc00a5faa46d19742f095bca0d494d.setIcon(icon_91f46c7da7ca5191142c7f612332ae2a);
+            
+    
+            var marker_72e3290dbde0063cf9137ac9889f254b = L.marker(
+                [40.8986, 29.3092],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_c0c4e048b611bbffec684c254b09ac24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c5809fb96cdaf473407a23daad0803e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_db79404db0b4c10150a31fc97e6efe74 = $(`<div id="html_db79404db0b4c10150a31fc97e6efe74" style="width: 100.0%; height: 100.0%;">     <b>SAW</b><br>     Passengers: 41.4M<br>     Cargo: nan tons     </div>`)[0];
+                popup_3c5809fb96cdaf473407a23daad0803e.setContent(html_db79404db0b4c10150a31fc97e6efe74);
+            
+        
+
+        marker_72e3290dbde0063cf9137ac9889f254b.bindPopup(popup_3c5809fb96cdaf473407a23daad0803e)
+        ;
+
+        
+    
+    
+                marker_72e3290dbde0063cf9137ac9889f254b.setIcon(icon_c0c4e048b611bbffec684c254b09ac24);
+            
+    
+            var marker_ef75b0cb353a0c091462cb972a237c7f = L.marker(
+                [35.7719, 140.3929],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_15fbf0fe49279e064c11a07f7d379826 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_467b7ed10f4b8eaaa8dbb38ebba4f186 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_89f1042342a2dd9784a0f3468480646f = $(`<div id="html_89f1042342a2dd9784a0f3468480646f" style="width: 100.0%; height: 100.0%;">     <b>NRT</b><br>     Passengers: 39.8M<br>     Cargo: 1.9M tons     </div>`)[0];
+                popup_467b7ed10f4b8eaaa8dbb38ebba4f186.setContent(html_89f1042342a2dd9784a0f3468480646f);
+            
+        
+
+        marker_ef75b0cb353a0c091462cb972a237c7f.bindPopup(popup_467b7ed10f4b8eaaa8dbb38ebba4f186)
+        ;
+
+        
+    
+    
+                marker_ef75b0cb353a0c091462cb972a237c7f.setIcon(icon_15fbf0fe49279e064c11a07f7d379826);
+            
+    
+            var marker_e89e5d89342c0c5a91b188597b84868e = L.marker(
+                [10.8188, 106.652],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_a1c55b92b202986687b966cbacfb8f90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0c1b8b2214c11e829061926f5631f27 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ac14531eaa61a8ee3bcd171e6a5f0b8a = $(`<div id="html_ac14531eaa61a8ee3bcd171e6a5f0b8a" style="width: 100.0%; height: 100.0%;">     <b>SGN</b><br>     Passengers: 39.8M<br>     Cargo: nan tons     </div>`)[0];
+                popup_a0c1b8b2214c11e829061926f5631f27.setContent(html_ac14531eaa61a8ee3bcd171e6a5f0b8a);
+            
+        
+
+        marker_e89e5d89342c0c5a91b188597b84868e.bindPopup(popup_a0c1b8b2214c11e829061926f5631f27)
+        ;
+
+        
+    
+    
+                marker_e89e5d89342c0c5a91b188597b84868e.setIcon(icon_a1c55b92b202986687b966cbacfb8f90);
+            
+    
+            var marker_5bfa82d5f9d3b3d8a6ccca828a7199fa = L.marker(
+                [36.8987, 30.8005],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_410686004208783434afb7cceac7d1f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6600c51555d967a4676405b772f8bffa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8e2890e0c8533df317f7965003a55443 = $(`<div id="html_8e2890e0c8533df317f7965003a55443" style="width: 100.0%; height: 100.0%;">     <b>AYT</b><br>     Passengers: 38.1M<br>     Cargo: nan tons     </div>`)[0];
+                popup_6600c51555d967a4676405b772f8bffa.setContent(html_8e2890e0c8533df317f7965003a55443);
+            
+        
+
+        marker_5bfa82d5f9d3b3d8a6ccca828a7199fa.bindPopup(popup_6600c51555d967a4676405b772f8bffa)
+        ;
+
+        
+    
+    
+                marker_5bfa82d5f9d3b3d8a6ccca828a7199fa.setIcon(icon_410686004208783434afb7cceac7d1f0);
+            
+    
+            var marker_faa883371384fceea8e1d16bcee908a6 = L.marker(
+                [24.9576, 46.6988],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_473f64e063d574615c44fc88d62c50a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83ac9cc4105347d29b11aaf2767cb704 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d3941ab1cb41390913d6e46ae1d3a073 = $(`<div id="html_d3941ab1cb41390913d6e46ae1d3a073" style="width: 100.0%; height: 100.0%;">     <b>RUH</b><br>     Passengers: 37.2M<br>     Cargo: nan tons     </div>`)[0];
+                popup_83ac9cc4105347d29b11aaf2767cb704.setContent(html_d3941ab1cb41390913d6e46ae1d3a073);
+            
+        
+
+        marker_faa883371384fceea8e1d16bcee908a6.bindPopup(popup_83ac9cc4105347d29b11aaf2767cb704)
+        ;
+
+        
+    
+    
+                marker_faa883371384fceea8e1d16bcee908a6.setIcon(icon_473f64e063d574615c44fc88d62c50a3);
+            
+    
+            var marker_5e4821460866f49c7fbaa121572f60e4 = L.marker(
+                [30.5785, 103.9471],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_7af0dec44e02e90787c5daa7267cd957 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20630b8ee25ea4639070dc44990037b1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_be8ed0f65d4e1c06d70fc828ee8b2f00 = $(`<div id="html_be8ed0f65d4e1c06d70fc828ee8b2f00" style="width: 100.0%; height: 100.0%;">     <b>CTU</b><br>     Passengers: 32.5M<br>     Cargo: 642.6K tons     </div>`)[0];
+                popup_20630b8ee25ea4639070dc44990037b1.setContent(html_be8ed0f65d4e1c06d70fc828ee8b2f00);
+            
+        
+
+        marker_5e4821460866f49c7fbaa121572f60e4.bindPopup(popup_20630b8ee25ea4639070dc44990037b1)
+        ;
+
+        
+    
+    
+                marker_5e4821460866f49c7fbaa121572f60e4.setIcon(icon_7af0dec44e02e90787c5daa7267cd957);
+            
+    
+            var marker_47d5403910d5a6196a780fbc8fe492c5 = L.marker(
+                [30.784, 114.2081],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_16af1a886a3cdf7df99548da483f5342 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ceae60ed785d5eed60ccf796c4e0b8d4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2f07b10282169c49f82a0acf39dc4780 = $(`<div id="html_2f07b10282169c49f82a0acf39dc4780" style="width: 100.0%; height: 100.0%;">     <b>WUH</b><br>     Passengers: 31.4M<br>     Cargo: 173.1K tons     </div>`)[0];
+                popup_ceae60ed785d5eed60ccf796c4e0b8d4.setContent(html_2f07b10282169c49f82a0acf39dc4780);
+            
+        
+
+        marker_47d5403910d5a6196a780fbc8fe492c5.bindPopup(popup_ceae60ed785d5eed60ccf796c4e0b8d4)
+        ;
+
+        
+    
+    
+                marker_47d5403910d5a6196a780fbc8fe492c5.setIcon(icon_16af1a886a3cdf7df99548da483f5342);
+            
+    
+            var marker_be619af1a9c43fba4f3eb9bfcc5831d9 = L.marker(
+                [28.1892, 113.2206],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_091f1e054bf911bbd93850730628b85c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97108f24b8374e190d8eae10828f7b83 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fc4d11c62a4e837a4017d63096cda4a2 = $(`<div id="html_fc4d11c62a4e837a4017d63096cda4a2" style="width: 100.0%; height: 100.0%;">     <b>CSX</b><br>     Passengers: 31.3M<br>     Cargo: 199.8K tons     </div>`)[0];
+                popup_97108f24b8374e190d8eae10828f7b83.setContent(html_fc4d11c62a4e837a4017d63096cda4a2);
+            
+        
+
+        marker_be619af1a9c43fba4f3eb9bfcc5831d9.bindPopup(popup_97108f24b8374e190d8eae10828f7b83)
+        ;
+
+        
+    
+    
+                marker_be619af1a9c43fba4f3eb9bfcc5831d9.setIcon(icon_091f1e054bf911bbd93850730628b85c);
+            
+    
+            var marker_d6ec58a07776070e93fa82e844e1f772 = L.marker(
+                [31.742, 118.862],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_c5e439a5e2b3b96404d9e5e74388a0be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3aa2c82dda4c46932ee7bad99f07fa7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cbad3d01044a98ae88b3a18395830688 = $(`<div id="html_cbad3d01044a98ae88b3a18395830688" style="width: 100.0%; height: 100.0%;">     <b>NKG</b><br>     Passengers: 31.2M<br>     Cargo: 414.6K tons     </div>`)[0];
+                popup_e3aa2c82dda4c46932ee7bad99f07fa7.setContent(html_cbad3d01044a98ae88b3a18395830688);
+            
+        
+
+        marker_d6ec58a07776070e93fa82e844e1f772.bindPopup(popup_e3aa2c82dda4c46932ee7bad99f07fa7)
+        ;
+
+        
+    
+    
+                marker_d6ec58a07776070e93fa82e844e1f772.setIcon(icon_c5e439a5e2b3b96404d9e5e74388a0be);
+            
+    
+            var marker_b0e5c710ca36df26b80f1d76a11f0555 = L.marker(
+                [34.4273, 135.244],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_b7a4f9bfe1c8e13a7051ab35d3cfa205 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4490263f6a091023b385123aec5970da = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ee3ee4d65bda4b7ae04b0e5878842ba0 = $(`<div id="html_ee3ee4d65bda4b7ae04b0e5878842ba0" style="width: 100.0%; height: 100.0%;">     <b>KIX</b><br>     Passengers: 30.6M<br>     Cargo: 757.3K tons     </div>`)[0];
+                popup_4490263f6a091023b385123aec5970da.setContent(html_ee3ee4d65bda4b7ae04b0e5878842ba0);
+            
+        
+
+        marker_b0e5c710ca36df26b80f1d76a11f0555.bindPopup(popup_4490263f6a091023b385123aec5970da)
+        ;
+
+        
+    
+    
+                marker_b0e5c710ca36df26b80f1d76a11f0555.setIcon(icon_b7a4f9bfe1c8e13a7051ab35d3cfa205);
+            
+    
+            var marker_05832da241bbc39c42a81acff6600f0e = L.marker(
+                [13.9126, 100.6069],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_f41639685ef9978716798b64adf40477 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b837fe1b19de3ea9cc86f09a9cf117c3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f65d5884286a34ca511cb43dc554a8b3 = $(`<div id="html_f65d5884286a34ca511cb43dc554a8b3" style="width: 100.0%; height: 100.0%;">     <b>DMK</b><br>     Passengers: 30.5M<br>     Cargo: 25.7K tons     </div>`)[0];
+                popup_b837fe1b19de3ea9cc86f09a9cf117c3.setContent(html_f65d5884286a34ca511cb43dc554a8b3);
+            
+        
+
+        marker_05832da241bbc39c42a81acff6600f0e.bindPopup(popup_b837fe1b19de3ea9cc86f09a9cf117c3)
+        ;
+
+        
+    
+    
+                marker_05832da241bbc39c42a81acff6600f0e.setIcon(icon_f41639685ef9978716798b64adf40477);
+            
+    
+            var marker_e071e74777c323c0370eab1316d8fed7 = L.marker(
+                [21.2212, 105.8072],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_7080bdf35241ca4bd73c7328ec658526 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d92cb581b23b86dbc4838827daf31f6a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4ed904f43dd779fffb7a3848869aa8b9 = $(`<div id="html_4ed904f43dd779fffb7a3848869aa8b9" style="width: 100.0%; height: 100.0%;">     <b>HAN</b><br>     Passengers: 30.0M<br>     Cargo: nan tons     </div>`)[0];
+                popup_d92cb581b23b86dbc4838827daf31f6a.setContent(html_4ed904f43dd779fffb7a3848869aa8b9);
+            
+        
+
+        marker_e071e74777c323c0370eab1316d8fed7.bindPopup(popup_d92cb581b23b86dbc4838827daf31f6a)
+        ;
+
+        
+    
+    
+                marker_e071e74777c323c0370eab1316d8fed7.setIcon(icon_7080bdf35241ca4bd73c7328ec658526);
+            
+    
+            var marker_141f2de1219de1279680bc138b5435b1 = L.marker(
+                [33.5113, 126.4928],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_01b5c36c3fc1146062f320162500bf6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a011271b87f6272aca14ada0a50ebf4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b99ce7528795f9646d5728156cc21db8 = $(`<div id="html_b99ce7528795f9646d5728156cc21db8" style="width: 100.0%; height: 100.0%;">     <b>CJU</b><br>     Passengers: 29.6M<br>     Cargo: 258.8K tons     </div>`)[0];
+                popup_0a011271b87f6272aca14ada0a50ebf4.setContent(html_b99ce7528795f9646d5728156cc21db8);
+            
+        
+
+        marker_141f2de1219de1279680bc138b5435b1.bindPopup(popup_0a011271b87f6272aca14ada0a50ebf4)
+        ;
+
+        
+    
+    
+                marker_141f2de1219de1279680bc138b5435b1.setIcon(icon_01b5c36c3fc1146062f320162500bf6a);
+            
+    
+            var marker_5e312913f629da6d3ff9e19fbc5b0781 = L.marker(
+                [24.433, 54.6511],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_926a64a0bcfd8a3430bb2f6eb205383e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d981668a5ae5f80fc7b4aab3b174caac = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_63f7bba78fab25b7f4efd62b7774dcb4 = $(`<div id="html_63f7bba78fab25b7f4efd62b7774dcb4" style="width: 100.0%; height: 100.0%;">     <b>AUH</b><br>     Passengers: 29.4M<br>     Cargo: 679.0K tons     </div>`)[0];
+                popup_d981668a5ae5f80fc7b4aab3b174caac.setContent(html_63f7bba78fab25b7f4efd62b7774dcb4);
+            
+        
+
+        marker_5e312913f629da6d3ff9e19fbc5b0781.bindPopup(popup_d981668a5ae5f80fc7b4aab3b174caac)
+        ;
+
+        
+    
+    
+                marker_5e312913f629da6d3ff9e19fbc5b0781.setIcon(icon_926a64a0bcfd8a3430bb2f6eb205383e);
+            
+    
+            var marker_0e638fbbe03dacf15edba214f4411a23 = L.marker(
+                [34.5197, 113.8417],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_910c594819dda5a499d1ac34997df5e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_923cfc899c755afa6af9543a5aa91491 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d1c555e6fc42e29876ef2a18942bef52 = $(`<div id="html_d1c555e6fc42e29876ef2a18942bef52" style="width: 100.0%; height: 100.0%;">     <b>CGO</b><br>     Passengers: 28.6M<br>     Cargo: 624.7K tons     </div>`)[0];
+                popup_923cfc899c755afa6af9543a5aa91491.setContent(html_d1c555e6fc42e29876ef2a18942bef52);
+            
+        
+
+        marker_0e638fbbe03dacf15edba214f4411a23.bindPopup(popup_923cfc899c755afa6af9543a5aa91491)
+        ;
+
+        
+    
+    
+                marker_0e638fbbe03dacf15edba214f4411a23.setIcon(icon_910c594819dda5a499d1ac34997df5e1);
+            
+    
+            var marker_42287c24caa5fc2d69ee2e91681505d7 = L.marker(
+                [24.544, 118.127],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_b60e8a5b76b4f8dcff486d4c9eb859c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f980951aea1b914638a0f5c9edca7e0a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3fb2ae4f5769043790d9922bff4e3258 = $(`<div id="html_3fb2ae4f5769043790d9922bff4e3258" style="width: 100.0%; height: 100.0%;">     <b>XMN</b><br>     Passengers: 28.0M<br>     Cargo: 375.7K tons     </div>`)[0];
+                popup_f980951aea1b914638a0f5c9edca7e0a.setContent(html_3fb2ae4f5769043790d9922bff4e3258);
+            
+        
+
+        marker_42287c24caa5fc2d69ee2e91681505d7.bindPopup(popup_f980951aea1b914638a0f5c9edca7e0a)
+        ;
+
+        
+    
+    
+                marker_42287c24caa5fc2d69ee2e91681505d7.setIcon(icon_b60e8a5b76b4f8dcff486d4c9eb859c4);
+            
+    
+            var marker_6f7a21e51f8b26869dfda9b7d07edaf2 = L.marker(
+                [17.2403, 78.4294],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_49e48622671e56e32cb3fd1b441235b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_470c37f2e97c80c3e9d4cc15dc0a6979 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7c0efc4e0a043695827031968aa95602 = $(`<div id="html_7c0efc4e0a043695827031968aa95602" style="width: 100.0%; height: 100.0%;">     <b>HYD</b><br>     Passengers: 27.9M<br>     Cargo: 180.9K tons     </div>`)[0];
+                popup_470c37f2e97c80c3e9d4cc15dc0a6979.setContent(html_7c0efc4e0a043695827031968aa95602);
+            
+        
+
+        marker_6f7a21e51f8b26869dfda9b7d07edaf2.bindPopup(popup_470c37f2e97c80c3e9d4cc15dc0a6979)
+        ;
+
+        
+    
+    
+                marker_6f7a21e51f8b26869dfda9b7d07edaf2.setIcon(icon_49e48622671e56e32cb3fd1b441235b0);
+            
+    
+            var marker_10817f62843d165ef74e5b9c9414c7eb = L.marker(
+                [43.9071, 87.4742],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_144b6329bf397c1fed3b135321f9af0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_796040732107e8a436e9444a9f2a2384 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8738a7616d03f393cef8ee944bd56d65 = $(`<div id="html_8738a7616d03f393cef8ee944bd56d65" style="width: 100.0%; height: 100.0%;">     <b>URC</b><br>     Passengers: 27.8M<br>     Cargo: 235.9K tons     </div>`)[0];
+                popup_796040732107e8a436e9444a9f2a2384.setContent(html_8738a7616d03f393cef8ee944bd56d65);
+            
+        
+
+        marker_10817f62843d165ef74e5b9c9414c7eb.bindPopup(popup_796040732107e8a436e9444a9f2a2384)
+        ;
+
+        
+    
+    
+                marker_10817f62843d165ef74e5b9c9414c7eb.setIcon(icon_144b6329bf397c1fed3b135321f9af0a);
+            
+    
+            var marker_2c5b778274024d60e500d2af2a4c61cc = L.marker(
+                [33.5859, 130.45],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_fe26878ddb5d5255d638d3b6f3212919 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0ea67709baa0d5c93b46113a9b401fd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5e68e9eb51d4a2517eb582125ef3844c = $(`<div id="html_5e68e9eb51d4a2517eb582125ef3844c" style="width: 100.0%; height: 100.0%;">     <b>FUK</b><br>     Passengers: 26.8M<br>     Cargo: nan tons     </div>`)[0];
+                popup_c0ea67709baa0d5c93b46113a9b401fd.setContent(html_5e68e9eb51d4a2517eb582125ef3844c);
+            
+        
+
+        marker_2c5b778274024d60e500d2af2a4c61cc.bindPopup(popup_c0ea67709baa0d5c93b46113a9b401fd)
+        ;
+
+        
+    
+    
+                marker_2c5b778274024d60e500d2af2a4c61cc.setIcon(icon_fe26878ddb5d5255d638d3b6f3212919);
+            
+    
+            var marker_cb98db62977681038d71a564d71ac6ef = L.marker(
+                [19.9349, 110.4582],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_ac721a3aca4c1acadd04793a8448fa85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0dd63abc7e2699da9fa772b7d4c4055 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9a541d163680c4f91dccf5de319ec020 = $(`<div id="html_9a541d163680c4f91dccf5de319ec020" style="width: 100.0%; height: 100.0%;">     <b>HAK</b><br>     Passengers: 26.9M<br>     Cargo: 209.3K tons     </div>`)[0];
+                popup_d0dd63abc7e2699da9fa772b7d4c4055.setContent(html_9a541d163680c4f91dccf5de319ec020);
+            
+        
+
+        marker_cb98db62977681038d71a564d71ac6ef.bindPopup(popup_d0dd63abc7e2699da9fa772b7d4c4055)
+        ;
+
+        
+    
+    
+                marker_cb98db62977681038d71a564d71ac6ef.setIcon(icon_ac721a3aca4c1acadd04793a8448fa85);
+            
+    
+            var marker_10170c6a324e2a363a7206eddfbd2c65 = L.marker(
+                [36.2661, 120.374],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_80b2b650de82378ff46422218458aeba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e2c58815ee151c5bd29b40b71c0802e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0cf43f2f2dbe59f0c724f8289e80725b = $(`<div id="html_0cf43f2f2dbe59f0c724f8289e80725b" style="width: 100.0%; height: 100.0%;">     <b>TAO</b><br>     Passengers: 26.2M<br>     Cargo: 279.4K tons     </div>`)[0];
+                popup_8e2c58815ee151c5bd29b40b71c0802e.setContent(html_0cf43f2f2dbe59f0c724f8289e80725b);
+            
+        
+
+        marker_10170c6a324e2a363a7206eddfbd2c65.bindPopup(popup_8e2c58815ee151c5bd29b40b71c0802e)
+        ;
+
+        
+    
+    
+                marker_10170c6a324e2a363a7206eddfbd2c65.setIcon(icon_80b2b650de82378ff46422218458aeba);
+            
+    
+            var marker_a68a0629a1b30cada5ef4be5248460ec = L.marker(
+                [-8.7482, 115.167],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_71a0f806d9814e45565f71f5beaf8154 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99fbf9616f7e91f0b190ecb1596c51ed = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_01777eb3e3b343ce996fea7a2b8279b9 = $(`<div id="html_01777eb3e3b343ce996fea7a2b8279b9" style="width: 100.0%; height: 100.0%;">     <b>DPS</b><br>     Passengers: 23.9M<br>     Cargo: 100.0K tons     </div>`)[0];
+                popup_99fbf9616f7e91f0b190ecb1596c51ed.setContent(html_01777eb3e3b343ce996fea7a2b8279b9);
+            
+        
+
+        marker_a68a0629a1b30cada5ef4be5248460ec.bindPopup(popup_99fbf9616f7e91f0b190ecb1596c51ed)
+        ;
+
+        
+    
+    
+                marker_a68a0629a1b30cada5ef4be5248460ec.setIcon(icon_71a0f806d9814e45565f71f5beaf8154);
+            
+    
+            var marker_b1662bec12b95c5264ed7c28abaaacfe = L.marker(
+                [45.6234, 126.2503],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_fbb9c94964cab90ca03c76f825798de8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a36344271e11b7a14a7d3a5f68974b95 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d048e591f54f8337d1666700e494b62f = $(`<div id="html_d048e591f54f8337d1666700e494b62f" style="width: 100.0%; height: 100.0%;">     <b>HRB</b><br>     Passengers: 23.8M<br>     Cargo: 140.7K tons     </div>`)[0];
+                popup_a36344271e11b7a14a7d3a5f68974b95.setContent(html_d048e591f54f8337d1666700e494b62f);
+            
+        
+
+        marker_b1662bec12b95c5264ed7c28abaaacfe.bindPopup(popup_a36344271e11b7a14a7d3a5f68974b95)
+        ;
+
+        
+    
+    
+                marker_b1662bec12b95c5264ed7c28abaaacfe.setIcon(icon_fbb9c94964cab90ca03c76f825798de8);
+            
+    
+            var marker_1e6ff33502750dbc6c470d479a601adb = L.marker(
+                [41.6398, 123.483],
+                {
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+            var icon_efb7e66495b8ddfe0de6cc2ae0c4cded = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db1b32eb362c979997059529b9b2dfd5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d75944835d1baf40dfd125baebeae4bc = $(`<div id="html_d75944835d1baf40dfd125baebeae4bc" style="width: 100.0%; height: 100.0%;">     <b>SHE</b><br>     Passengers: 23.7M<br>     Cargo: 228.0K tons     </div>`)[0];
+                popup_db1b32eb362c979997059529b9b2dfd5.setContent(html_d75944835d1baf40dfd125baebeae4bc);
+            
+        
+
+        marker_1e6ff33502750dbc6c470d479a601adb.bindPopup(popup_db1b32eb362c979997059529b9b2dfd5)
+        ;
+
+        
+    
+    
+                marker_1e6ff33502750dbc6c470d479a601adb.setIcon(icon_efb7e66495b8ddfe0de6cc2ae0c4cded);
+            
+    
+            var layer_control_2c0bef5208b877959af85aaee422bf36_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_753882b78b47c14140c026b0e28f8d28,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_2c0bef5208b877959af85aaee422bf36 = L.control.layers(
+                layer_control_2c0bef5208b877959af85aaee422bf36_layers.base_layers,
+                layer_control_2c0bef5208b877959af85aaee422bf36_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+
+        
+    
+            tile_layer_753882b78b47c14140c026b0e28f8d28.addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+                marker_a88c39eeb95ed593c4fab5cb89f45dec.setIcon(icon_8d25561837d575d26c79ee9fee8a5a00);
+            
+    
+                marker_f677512962c0ada296f48b7f5bae3eb8.setIcon(icon_0bba40d24b9288540660861c8d3ec3dc);
+            
+    
+                marker_f3e12ec29a57b6f8c3c16b82cd43fbcd.setIcon(icon_8598a24ceadf7fb603571da6a7826aa9);
+            
+    
+                marker_865934effdd0de9da5332a954ff3c610.setIcon(icon_912ae47c16cbd909db37aa6c0ed4674f);
+            
+    
+                marker_6ea298de98342f4c2774f72c80538abd.setIcon(icon_0bf0184612dedf6134d8ff2a729fceca);
+            
+    
+                marker_3d8b4e98a6e7b1b83d7a3f26938f6522.setIcon(icon_306d4724648577bcebc1e67825c38ccb);
+            
+    
+                marker_4f76f3bcc6397cc56bbbcfee27b51e4c.setIcon(icon_a843e9f9c4674889600661897321d8a4);
+            
+    
+                marker_46a266810746cdcbb202bab2a96c7445.setIcon(icon_86a9123d3ca769c33bf6ad0b697f4a96);
+            
+    
+                marker_c8770509ccf40ae2badc6cc2ec7ae9fa.setIcon(icon_a70a279808b5cbf4e08b03f78a23a14d);
+            
+    
+                marker_128fd6c40686ac939acedeccf9202bb9.setIcon(icon_56fbf40757d260ede1c990e1889a3047);
+            
+    
+                marker_64fd9b2e34cdfded372449223b06cc99.setIcon(icon_f353cd4b2dd24f24f13fd7935a82746a);
+            
+    
+                marker_7d8e75087e20267ac13acbece6b9cf5f.setIcon(icon_e5c48cd819fe74637fe05da80d487a73);
+            
+    
+                marker_25db41e39f7572799b06b1b64bd90c2e.setIcon(icon_14100cf10264b20f87bd7fbdb25845a3);
+            
+    
+                marker_206af61b3b12ea2527ac1a308445c737.setIcon(icon_345ae558a20f130b44251aec31260368);
+            
+    
+                marker_7e6926ad5fe6a0cbb97b7aabaf950090.setIcon(icon_0c9141065dad556612ab59514d51d003);
+            
+    
+                marker_d75cd52ac8c51002f3d916791c42ea94.setIcon(icon_e09212eb033c2b26fd46e53d8f129266);
+            
+    
+                marker_f132484d786e6acf83410f7b81a27ff8.setIcon(icon_141115ab1f1310bedf52282baba10f7d);
+            
+    
+                marker_7fdfa84e7f96e623db7179f3328dcea5.setIcon(icon_16c17ed9b97641108298c69d01c96b27);
+            
+    
+                marker_66eaa11600bef9f2864f4fd2a745b926.setIcon(icon_f8b9634288a6eb76f52b95bb71c15cc7);
+            
+    
+                marker_f5ac1b019078e6da139b41e7fe30e6f2.setIcon(icon_eeadd047864316671a1fb12b7cd4a0ca);
+            
+    
+                marker_660117fc98ab5d62d2d07ed87ebc9eb4.setIcon(icon_211abc0871c4b668ad5966c103f19464);
+            
+    
+                marker_511713ced7bd962c42414056a71dd5c1.setIcon(icon_334d1615c5da65b5ccb8f0456653309d);
+            
+    
+                marker_5aa6afee8a184f12998051ec3f5ff14e.setIcon(icon_a9a8f485a98be2e9b78c1bd45dfa8f51);
+            
+    
+                marker_a1688343a263f47fa430371ad9fc5ef0.setIcon(icon_373919106715b1cff97c5e40a7fd356f);
+            
+    
+                marker_badbf6175807c7003bba6814fee15f71.setIcon(icon_16b010a73c75603a64e7c57ec3cdbd44);
+            
+    
+                marker_97bc00a5faa46d19742f095bca0d494d.setIcon(icon_91f46c7da7ca5191142c7f612332ae2a);
+            
+    
+                marker_72e3290dbde0063cf9137ac9889f254b.setIcon(icon_c0c4e048b611bbffec684c254b09ac24);
+            
+    
+                marker_ef75b0cb353a0c091462cb972a237c7f.setIcon(icon_15fbf0fe49279e064c11a07f7d379826);
+            
+    
+                marker_e89e5d89342c0c5a91b188597b84868e.setIcon(icon_a1c55b92b202986687b966cbacfb8f90);
+            
+    
+                marker_5bfa82d5f9d3b3d8a6ccca828a7199fa.setIcon(icon_410686004208783434afb7cceac7d1f0);
+            
+    
+                marker_faa883371384fceea8e1d16bcee908a6.setIcon(icon_473f64e063d574615c44fc88d62c50a3);
+            
+    
+                marker_5e4821460866f49c7fbaa121572f60e4.setIcon(icon_7af0dec44e02e90787c5daa7267cd957);
+            
+    
+                marker_47d5403910d5a6196a780fbc8fe492c5.setIcon(icon_16af1a886a3cdf7df99548da483f5342);
+            
+    
+                marker_be619af1a9c43fba4f3eb9bfcc5831d9.setIcon(icon_091f1e054bf911bbd93850730628b85c);
+            
+    
+                marker_d6ec58a07776070e93fa82e844e1f772.setIcon(icon_c5e439a5e2b3b96404d9e5e74388a0be);
+            
+    
+                marker_b0e5c710ca36df26b80f1d76a11f0555.setIcon(icon_b7a4f9bfe1c8e13a7051ab35d3cfa205);
+            
+    
+                marker_05832da241bbc39c42a81acff6600f0e.setIcon(icon_f41639685ef9978716798b64adf40477);
+            
+    
+                marker_e071e74777c323c0370eab1316d8fed7.setIcon(icon_7080bdf35241ca4bd73c7328ec658526);
+            
+    
+                marker_141f2de1219de1279680bc138b5435b1.setIcon(icon_01b5c36c3fc1146062f320162500bf6a);
+            
+    
+                marker_5e312913f629da6d3ff9e19fbc5b0781.setIcon(icon_926a64a0bcfd8a3430bb2f6eb205383e);
+            
+    
+                marker_0e638fbbe03dacf15edba214f4411a23.setIcon(icon_910c594819dda5a499d1ac34997df5e1);
+            
+    
+                marker_42287c24caa5fc2d69ee2e91681505d7.setIcon(icon_b60e8a5b76b4f8dcff486d4c9eb859c4);
+            
+    
+                marker_6f7a21e51f8b26869dfda9b7d07edaf2.setIcon(icon_49e48622671e56e32cb3fd1b441235b0);
+            
+    
+                marker_10817f62843d165ef74e5b9c9414c7eb.setIcon(icon_144b6329bf397c1fed3b135321f9af0a);
+            
+    
+                marker_2c5b778274024d60e500d2af2a4c61cc.setIcon(icon_fe26878ddb5d5255d638d3b6f3212919);
+            
+    
+                marker_cb98db62977681038d71a564d71ac6ef.setIcon(icon_ac721a3aca4c1acadd04793a8448fa85);
+            
+    
+                marker_10170c6a324e2a363a7206eddfbd2c65.setIcon(icon_80b2b650de82378ff46422218458aeba);
+            
+    
+                marker_a68a0629a1b30cada5ef4be5248460ec.setIcon(icon_71a0f806d9814e45565f71f5beaf8154);
+            
+    
+                marker_b1662bec12b95c5264ed7c28abaaacfe.setIcon(icon_fbb9c94964cab90ca03c76f825798de8);
+            
+    
+                marker_1e6ff33502750dbc6c470d479a601adb.setIcon(icon_efb7e66495b8ddfe0de6cc2ae0c4cded);
+            
+    
+            tile_layer_753882b78b47c14140c026b0e28f8d28.addTo(map_24d31283fde76fbaa21fbc9e1fad40ea);
+        
+    
+                marker_a88c39eeb95ed593c4fab5cb89f45dec.setIcon(icon_8d25561837d575d26c79ee9fee8a5a00);
+            
+    
+                marker_f677512962c0ada296f48b7f5bae3eb8.setIcon(icon_0bba40d24b9288540660861c8d3ec3dc);
+            
+    
+                marker_f3e12ec29a57b6f8c3c16b82cd43fbcd.setIcon(icon_8598a24ceadf7fb603571da6a7826aa9);
+            
+    
+                marker_865934effdd0de9da5332a954ff3c610.setIcon(icon_912ae47c16cbd909db37aa6c0ed4674f);
+            
+    
+                marker_6ea298de98342f4c2774f72c80538abd.setIcon(icon_0bf0184612dedf6134d8ff2a729fceca);
+            
+    
+                marker_3d8b4e98a6e7b1b83d7a3f26938f6522.setIcon(icon_306d4724648577bcebc1e67825c38ccb);
+            
+    
+                marker_4f76f3bcc6397cc56bbbcfee27b51e4c.setIcon(icon_a843e9f9c4674889600661897321d8a4);
+            
+    
+                marker_46a266810746cdcbb202bab2a96c7445.setIcon(icon_86a9123d3ca769c33bf6ad0b697f4a96);
+            
+    
+                marker_c8770509ccf40ae2badc6cc2ec7ae9fa.setIcon(icon_a70a279808b5cbf4e08b03f78a23a14d);
+            
+    
+                marker_128fd6c40686ac939acedeccf9202bb9.setIcon(icon_56fbf40757d260ede1c990e1889a3047);
+            
+    
+                marker_64fd9b2e34cdfded372449223b06cc99.setIcon(icon_f353cd4b2dd24f24f13fd7935a82746a);
+            
+    
+                marker_7d8e75087e20267ac13acbece6b9cf5f.setIcon(icon_e5c48cd819fe74637fe05da80d487a73);
+            
+    
+                marker_25db41e39f7572799b06b1b64bd90c2e.setIcon(icon_14100cf10264b20f87bd7fbdb25845a3);
+            
+    
+                marker_206af61b3b12ea2527ac1a308445c737.setIcon(icon_345ae558a20f130b44251aec31260368);
+            
+    
+                marker_7e6926ad5fe6a0cbb97b7aabaf950090.setIcon(icon_0c9141065dad556612ab59514d51d003);
+            
+    
+                marker_d75cd52ac8c51002f3d916791c42ea94.setIcon(icon_e09212eb033c2b26fd46e53d8f129266);
+            
+    
+                marker_f132484d786e6acf83410f7b81a27ff8.setIcon(icon_141115ab1f1310bedf52282baba10f7d);
+            
+    
+                marker_7fdfa84e7f96e623db7179f3328dcea5.setIcon(icon_16c17ed9b97641108298c69d01c96b27);
+            
+    
+                marker_66eaa11600bef9f2864f4fd2a745b926.setIcon(icon_f8b9634288a6eb76f52b95bb71c15cc7);
+            
+    
+                marker_f5ac1b019078e6da139b41e7fe30e6f2.setIcon(icon_eeadd047864316671a1fb12b7cd4a0ca);
+            
+    
+                marker_660117fc98ab5d62d2d07ed87ebc9eb4.setIcon(icon_211abc0871c4b668ad5966c103f19464);
+            
+    
+                marker_511713ced7bd962c42414056a71dd5c1.setIcon(icon_334d1615c5da65b5ccb8f0456653309d);
+            
+    
+                marker_5aa6afee8a184f12998051ec3f5ff14e.setIcon(icon_a9a8f485a98be2e9b78c1bd45dfa8f51);
+            
+    
+                marker_a1688343a263f47fa430371ad9fc5ef0.setIcon(icon_373919106715b1cff97c5e40a7fd356f);
+            
+    
+                marker_badbf6175807c7003bba6814fee15f71.setIcon(icon_16b010a73c75603a64e7c57ec3cdbd44);
+            
+    
+                marker_97bc00a5faa46d19742f095bca0d494d.setIcon(icon_91f46c7da7ca5191142c7f612332ae2a);
+            
+    
+                marker_72e3290dbde0063cf9137ac9889f254b.setIcon(icon_c0c4e048b611bbffec684c254b09ac24);
+            
+    
+                marker_ef75b0cb353a0c091462cb972a237c7f.setIcon(icon_15fbf0fe49279e064c11a07f7d379826);
+            
+    
+                marker_e89e5d89342c0c5a91b188597b84868e.setIcon(icon_a1c55b92b202986687b966cbacfb8f90);
+            
+    
+                marker_5bfa82d5f9d3b3d8a6ccca828a7199fa.setIcon(icon_410686004208783434afb7cceac7d1f0);
+            
+    
+                marker_faa883371384fceea8e1d16bcee908a6.setIcon(icon_473f64e063d574615c44fc88d62c50a3);
+            
+    
+                marker_5e4821460866f49c7fbaa121572f60e4.setIcon(icon_7af0dec44e02e90787c5daa7267cd957);
+            
+    
+                marker_47d5403910d5a6196a780fbc8fe492c5.setIcon(icon_16af1a886a3cdf7df99548da483f5342);
+            
+    
+                marker_be619af1a9c43fba4f3eb9bfcc5831d9.setIcon(icon_091f1e054bf911bbd93850730628b85c);
+            
+    
+                marker_d6ec58a07776070e93fa82e844e1f772.setIcon(icon_c5e439a5e2b3b96404d9e5e74388a0be);
+            
+    
+                marker_b0e5c710ca36df26b80f1d76a11f0555.setIcon(icon_b7a4f9bfe1c8e13a7051ab35d3cfa205);
+            
+    
+                marker_05832da241bbc39c42a81acff6600f0e.setIcon(icon_f41639685ef9978716798b64adf40477);
+            
+    
+                marker_e071e74777c323c0370eab1316d8fed7.setIcon(icon_7080bdf35241ca4bd73c7328ec658526);
+            
+    
+                marker_141f2de1219de1279680bc138b5435b1.setIcon(icon_01b5c36c3fc1146062f320162500bf6a);
+            
+    
+                marker_5e312913f629da6d3ff9e19fbc5b0781.setIcon(icon_926a64a0bcfd8a3430bb2f6eb205383e);
+            
+    
+                marker_0e638fbbe03dacf15edba214f4411a23.setIcon(icon_910c594819dda5a499d1ac34997df5e1);
+            
+    
+                marker_42287c24caa5fc2d69ee2e91681505d7.setIcon(icon_b60e8a5b76b4f8dcff486d4c9eb859c4);
+            
+    
+                marker_6f7a21e51f8b26869dfda9b7d07edaf2.setIcon(icon_49e48622671e56e32cb3fd1b441235b0);
+            
+    
+                marker_10817f62843d165ef74e5b9c9414c7eb.setIcon(icon_144b6329bf397c1fed3b135321f9af0a);
+            
+    
+                marker_2c5b778274024d60e500d2af2a4c61cc.setIcon(icon_fe26878ddb5d5255d638d3b6f3212919);
+            
+    
+                marker_cb98db62977681038d71a564d71ac6ef.setIcon(icon_ac721a3aca4c1acadd04793a8448fa85);
+            
+    
+                marker_10170c6a324e2a363a7206eddfbd2c65.setIcon(icon_80b2b650de82378ff46422218458aeba);
+            
+    
+                marker_a68a0629a1b30cada5ef4be5248460ec.setIcon(icon_71a0f806d9814e45565f71f5beaf8154);
+            
+    
+                marker_b1662bec12b95c5264ed7c28abaaacfe.setIcon(icon_fbb9c94964cab90ca03c76f825798de8);
+            
+    
+                marker_1e6ff33502750dbc6c470d479a601adb.setIcon(icon_efb7e66495b8ddfe0de6cc2ae0c4cded);
+            
+</script>
+</html>
